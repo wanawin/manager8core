@@ -1,0 +1,8 @@
+rule_id,status,core,feature,operator,threshold1,threshold2,play_pair,omit_member,priority,discovery_support,discovery_preservation,validation_support,validation_preservation,untouched_support,untouched_preservation,evidence_family,notes
+PAIR-148-OMIT-CM0-01,ACTIVE,148,GP_FEATURE_0059,ge,19,,CM1 + CM2,0,20,9,0.777778,1,1.0,3,1.0,GP,GP_FEATURE_0059 verified exact alias of tf_outer_product
+PAIR-148-OMIT-CM1-02,ACTIVE,148,tf_mirror_pos2_pos3,eq,0,,CM0 + CM2,1,10,21,0.761905,7,1.0,8,0.75,MIRROR,Play CM0 and CM2 when inner positions are not a mirror pair
+PAIR-235-OMIT-CM1-03,ACTIVE,235,tf_fib_count,eq,3,,CM0 + CM2,1,10,8,0.75,2,1.0,4,0.75,NUMBER_CLASS,Play CM0 and CM2
+PAIR-235-OMIT-CM2-04,ACTIVE,235,tf_seed_digitset,le,467,,CM0 + CM1,2,20,11,0.818182,4,0.75,4,0.75,DIGIT_SET,Play CM0 and CM1
+PAIR-356-OMIT-CM1-05,ACTIVE,356,tf_seed_digitset,between,254,572,CM0 + CM2,1,10,6,0.833333,1,1.0,4,0.75,DIGIT_SET,Original mined interval 253.4 through 572 becomes exact integer interval 254 through 572
+PAIR-579-OMIT-CM0-06,ACTIVE,579,tf_abs_outer_minus_inner,le,2,,CM1 + CM2,0,20,10,0.8,2,1.0,5,0.8,MATH,Play CM1 and CM2
+PAIR-579-OMIT-CM1-07,ACTIVE,579,tf_seed_digitset,ge,128,,CM0 + CM2,1,10,25,0.84,7,0.857143,8,0.75,DIGIT_SET,Play CM0 and CM2

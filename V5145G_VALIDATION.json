@@ -1,0 +1,112 @@
+[
+  {
+    "Check": "Visible version V51.45G",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Safe concat helper present",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Unsafe settled_result attrs removed",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "All application concat calls guarded",
+    "Status": "PASS",
+    "Detail": "raw pd.concat count=1; guarded=14"
+  },
+  {
+    "Check": "Polars imported",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "DuckDB imported",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "WF open gate default",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "PICK3_95.csv rule count",
+    "Status": "PASS",
+    "Detail": "95"
+  },
+  {
+    "Check": "CORE45.csv rule count",
+    "Status": "PASS",
+    "Detail": "45"
+  },
+  {
+    "Check": "MEMBER35.csv rule count",
+    "Status": "PASS",
+    "Detail": "35"
+  },
+  {
+    "Check": "Root file app.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Root file settled_rules_engine.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Root file ns_core_set_lab.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Root file member_rule_engine.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Root file RUN_APP.bat",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Root file requirements.txt",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Non-empty folder IN",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Non-empty folder OUTPUTS",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Non-empty folder ARCHIVE",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Non-empty folder CACHE",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Requirements include Polars",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "Requirements include DuckDB",
+    "Status": "PASS",
+    "Detail": ""
+  }
+]

@@ -1,0 +1,7 @@
+1. Fixed FinalPlaylistSelectedBoxedPlays being calculated and then overwritten with zero.
+2. WF chart builder now returns the shared PipelineResult explicitly; no DataFrames are stored in attrs.
+3. WF ZIP now includes complete per-date settled core and member ledgers.
+4. Added wf_member_all.csv, wf_member_survivors.csv, wf_member35_rule_fire.csv and supporting core/stage/handshake files.
+5. Daily per-core view no longer displays an unexplained blank grid when a core has zero survivors; it shows the core-stage deletion audit.
+6. Preserved legacy matrix, trait, ranking, join, and Northern Star calculation code unchanged.
+7. Retained Polars and DuckDB acceleration and metadata-safe Pandas concatenation.

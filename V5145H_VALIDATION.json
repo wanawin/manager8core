@@ -1,0 +1,137 @@
+[
+  {
+    "Check": "PY_COMPILE_app.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "PY_COMPILE_settled_rules_engine.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "PY_COMPILE_member_rule_engine.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "PY_COMPILE_ns_core_set_lab.py",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "RULE_COUNT_PICK3_95.csv",
+    "Status": "PASS",
+    "Detail": "95"
+  },
+  {
+    "Check": "RULE_COUNT_CORE45.csv",
+    "Status": "PASS",
+    "Detail": "45"
+  },
+  {
+    "Check": "RULE_COUNT_MEMBER35.csv",
+    "Status": "PASS",
+    "Detail": "35"
+  },
+  {
+    "Check": "WF_RETURN_PIPELINE_RESULT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "WF_UNPACK_PIPELINE_RESULT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "NO_ZERO_OVERWRITE",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_core_all.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_core_survivors.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_core_rule_fire.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_member_all.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_member_survivors.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_member35_rule_fire.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_stage_summary.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "EXPORT_wf_contract_handshake.csv",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "POLARS_PRESENT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "DUCKDB_PRESENT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "METADATA_SAFE_CONCAT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "VISIBLE_BUILD_LABEL",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "DAILY_EMPTY_CORE_AUDIT",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "NONEMPTY_IN",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "NONEMPTY_OUTPUTS",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "NONEMPTY_ARCHIVE",
+    "Status": "PASS",
+    "Detail": ""
+  },
+  {
+    "Check": "NONEMPTY_CACHE",
+    "Status": "PASS",
+    "Detail": ""
+  }
+]

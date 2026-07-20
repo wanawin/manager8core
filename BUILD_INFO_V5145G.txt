@@ -1,0 +1,5 @@
+BUILD: v51.45G (Legacy Matrix Intact + Metadata-Safe WF + Polars/DuckDB)
+AUTHORITATIVE PACKAGE: This ZIP supersedes V51.45F.
+LEGACY MATRIX: UNCHANGED.
+WF FIX: all pandas concatenations use metadata-safe shallow copies; no DataFrame/PipelineResult objects are stored in DataFrame.attrs.
+ACCELERATION: Polars and DuckDB remain installed and used for safe preparation/indexing; legacy matrix formulas remain unchanged.

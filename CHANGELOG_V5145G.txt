@@ -1,0 +1,7 @@
+V51.45G
+- Fixed the WF crash in pandas concat caused by DataFrame-valued attrs metadata.
+- Added one program-wide _safe_pd_concat wrapper and routed every application concat through it.
+- Removed the unused settled PipelineResult object from DataFrame.attrs.
+- Preserved all rows, columns, dtypes, ordering, legacy matrix builders, formulas, joins, windows, and call order.
+- Retained Polars and DuckDB dependencies and acceleration boundaries.
+- Produced a clean root-flat package to prevent accumulation of obsolete Python files.

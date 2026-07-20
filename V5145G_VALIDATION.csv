@@ -1,0 +1,23 @@
+Check,Status,Detail
+Visible version V51.45G,PASS,
+Safe concat helper present,PASS,
+Unsafe settled_result attrs removed,PASS,
+All application concat calls guarded,PASS,raw pd.concat count=1; guarded=14
+Polars imported,PASS,
+DuckDB imported,PASS,
+WF open gate default,PASS,
+PICK3_95.csv rule count,PASS,95
+CORE45.csv rule count,PASS,45
+MEMBER35.csv rule count,PASS,35
+Root file app.py,PASS,
+Root file settled_rules_engine.py,PASS,
+Root file ns_core_set_lab.py,PASS,
+Root file member_rule_engine.py,PASS,
+Root file RUN_APP.bat,PASS,
+Root file requirements.txt,PASS,
+Non-empty folder IN,PASS,
+Non-empty folder OUTPUTS,PASS,
+Non-empty folder ARCHIVE,PASS,
+Non-empty folder CACHE,PASS,
+Requirements include Polars,PASS,
+Requirements include DuckDB,PASS,

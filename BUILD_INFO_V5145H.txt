@@ -1,0 +1,6 @@
+BUILD: v51.45H (Legacy Matrix Intact + Complete WF Member Handoff + Polars/DuckDB)
+AUTHORITATIVE PURPOSE: Repair WF final-member handoff and export complete core/member evidence.
+LEGACY MATRIX BUILDERS: UNCHANGED
+WF DEFAULT: OPEN_GATE_FEATURE_ONLY (matches Daily)
+WF MEMBER EXPORTS: core all/survivors/fire, member all/survivors/fire, stage summary, handshake
+DAILY PER-CORE EMPTY VIEW: replaced with explicit core-stage audit when no core position survives

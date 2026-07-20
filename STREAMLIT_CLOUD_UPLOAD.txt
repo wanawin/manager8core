@@ -1,0 +1,18 @@
+STREAMLIT CLOUD ROOT-FLAT DEPLOYMENT
+
+Upload ALL files and folders from this package to the repository root.
+The repository must visibly contain:
+
+app.py
+settled_rules_engine.py
+rules/
+  PICK3_95.csv
+  CORE45.csv
+  MEMBER35.csv
+
+Streamlit main file path: app.py
+Do not upload only the Python files. The rules folder is mandatory.
+
+
+ROOT-FLAT REGISTRY REPAIR 2026-07-19:
+PICK3_95.csv, CORE45.csv, and MEMBER35.csv must be stored directly in the repository root beside app.py. settled_rules_engine.py now loads them from root; no rules/ folder is required.
